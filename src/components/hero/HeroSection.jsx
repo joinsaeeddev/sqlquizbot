@@ -9,7 +9,7 @@ import Microsoft from "../../assets/icons/Microsoft.png"
 
 const HeroSection = () => {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-100 px-6 lg:px-8 py-8 sm:py-16 lg:py-24">
+    <div className="relative isolate overflow-hidden px-6 lg:px-8 py-8 sm:py-16 lg:py-24">
       <div className="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 justify-between">
         {/* Details Column */}
         <div className="max-w-lg">
@@ -36,8 +36,8 @@ const HeroSection = () => {
 
         {/* Images Column (visible on larger devices) */}
         <div className="flex grid-cols-2 gap-4 mt-8 lg:mt-0 relative">
-          <div className="img1 h-[440px] z-10 overflow-hidden border-8 border-gray-100 border-opacity-40">
-            <img src={LearnImg} alt="Learn" className="w-full h-full " />
+          <div className="img1 h-[440px] z-10 overflow-hidden">
+            <img src={LearnImg} alt="Learn" className="w-full h-full" />
           </div>
         </div>
       </div>
