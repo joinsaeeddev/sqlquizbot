@@ -6,3 +6,12 @@
 body{
     width: 100%;
 }
+
+@font-face {
+    font-family: JKAbode;
+    src: url("../assets/fonts/JKAbode-Demo.ttf");
+}
+@font-face {
+    font-family: IRANSansX;
+    src: url("../assets/fonts/IRANSans.ttf");
+}
