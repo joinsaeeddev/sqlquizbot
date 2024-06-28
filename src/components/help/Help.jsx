@@ -16,12 +16,12 @@ const Help = () => {
       <img
         src={Help_Left_Img}
         alt=""
-        className="absolute left-0  hidden md:block"
+        className="absolute left-0  hidden xl:block"
       />
       <img
         src={Help_RIght_Img}
         alt=""
-        className="absolute right-0 hidden md:block"
+        className="absolute right-0 hidden xl:block"
       />
 
       <div className="text-center max-w-2xl px-5">
