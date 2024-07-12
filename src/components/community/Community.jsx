@@ -99,7 +99,7 @@ const Community = () => {
                       <span>{card.handle}</span>
                     </div>
                   </div>
-                  <div className="icon">
+                  <div className="icon hidden md:block">
                     <img src={twitter} alt="" className="h-8 w-10" />
                   </div>
                 </div>

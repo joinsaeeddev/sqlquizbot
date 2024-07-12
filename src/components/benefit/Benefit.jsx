@@ -18,7 +18,7 @@ const Benefit = () => {
         alt=""
         className="absolute bottom-0 left-0 hidden md:block"
       />
-      <div className="text-white max-w-4xl px-5 ">
+      <div className="text-white max-w-4xl px-5  text-center md:text-left">
         <h1 className="text-4xl font-bold mb-4">
           Benefits of Using SQL Quiz Bot!
         </h1>
@@ -26,8 +26,8 @@ const Benefit = () => {
           Discover the advantages of integrating AI into your SQL and NoSQL
           operations.
         </p>
-        <div className="flex flex-col md:flex-row gap-8 mb-4">
-          <div className="box">
+        <div className="flex flex-col md:flex-row gap-8 mb-4 px-4">
+          <div className="box flex flex-col items-center md:items-start">
             <img src={Watch} alt="" className="w-20 h-20 mb-4" />
             <h1 className="mb-4 text-[20px]">
               Stop Wasting Hours Googling Around
@@ -38,7 +38,7 @@ const Benefit = () => {
               databases and need quick results.
             </p>
           </div>
-          <div className="box">
+          <div className="box flex flex-col items-center md:items-start">
             <img src={dollar} alt="" className="w-20 h-20 mb-4" />
             <h1 className="mb-4 text-[20px]">
               Cost-Effective and Highly Productive
@@ -49,7 +49,7 @@ const Benefit = () => {
               solution for any data analyst.
             </p>
           </div>
-          <div className="box">
+          <div className="box flex flex-col items-center md:items-start">
             <img src={rise} alt="" className="w-20 h-20 mb-4" />
             <h1 className="mb-4 text-[20px]">Suitable for All Levels</h1>
             <p className="text-[16px]">

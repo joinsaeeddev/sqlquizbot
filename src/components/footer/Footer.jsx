@@ -31,7 +31,7 @@ const Footer = () => {
 
           {/* Social icons section */}
           <div className="w-full sm:w-auto">
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 justify-center">
               <Link to="/" className="rounded-full border border-[#2B54FF]">
                 <img src={Discord} alt="Icon 1" className="h-6 w-6" />
               </Link>

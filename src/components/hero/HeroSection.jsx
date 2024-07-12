@@ -10,9 +10,9 @@ import Microsoft from "../../assets/icons/Microsoft.png"
 const HeroSection = () => {
   return (
     <div className="relative isolate overflow-hidden px-6 lg:px-8 py-8 sm:py-16 lg:py-24">
-      <div className="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 justify-between">
+      <div className="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 place-items-center justify-between">
         {/* Details Column */}
-        <div className="max-w-lg">
+        <div className="max-w-lg text-center md:text-left">
           <p className="text-6xl font-semibold mb-4">
             Learn With <br />{" "}
             <span className="text-[#2B54FF]">SQL QuizBot</span>
@@ -24,7 +24,7 @@ const HeroSection = () => {
             nondictum vel, imperdiet at nulla. Pellentesque lobortis quam lorem,
             pretiumull amcorper lectus{" "}
           </p>
-          <div className="flex items-center gap-1">
+          <div className="flex items-center justify-center md:justify-start gap-1">
             <button className=" border border-[#2B54FF]  text-[#2B54FF] px-8 py-2 rounded-[59px]  mb-2">
               Join Prep Community
             </button>
